@@ -1,0 +1,105 @@
+/* Common styles for both mobile large and mobile medium */
+.mainContent {
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.serviceOptionDescription {
+    width: 374px;
+    height: 374px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    margin-left: 331px;
+}
+
+p {
+    color: #000;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+/* Media query for mobile medium (max-width: 767px) */
+@media (max-width: 767px) {
+    .mainContent {
+        /* Mobile medium-specific styles */
+        padding-left: 21px;
+    }
+    h1 {
+        /* Mobile medium-specific styles */
+        text-align: center;
+        margin-top: 84px;
+        margin-bottom: 50px;
+        padding-right: 36px;
+    }
+    .serviceOptionDescription {
+        width: 372px;
+        height: 374px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+        margin-left: 0px;
+    }
+    h2 {
+        /* Mobile medium-specific styles */
+        font-family: "Open Sans", sans-serif;
+        padding-right: 26px;
+    }
+    /* Other styles for mobile medium */
+}
+
+/* Media query for mobile large (max-width: 425px) */
+@media (max-width: 375px) {
+    .mainContent {
+        /* Mobile large-specific styles */
+        padding-left: 10px;
+    }
+    h1 {
+        /* Mobile large-specific styles */
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 60px;
+        padding-right: 15px;
+    }
+    .serviceOptionDescription {
+        width: 346px;
+        height: 374px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+        margin-left: 0px;
+    }
+    h2 {
+        /* Mobile large-specific styles */
+        font-family: "Open Sans", sans-serif;
+        padding-right: 3px;
+    }
+    /* Other styles for mobile large */
+}

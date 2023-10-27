@@ -1,0 +1,51 @@
+.aboutTopDiv {
+    background-color: #d0e3d0;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutTopDivMainText{
+    font-family: 'SanFranciscoRounded-Semibold ';
+    font-size: 40px;
+  }
+  .aboutTopDivCompanyName{
+    font-family: 'SanFranciscoDisplay-Regular ', cursive;
+    font-size: 32px;
+  }
+  .horizontal-line {
+    width: 100%;
+  }
+  
+  .centered-content {
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-family: 'SanFranciscoRounded-Semibold ';
+  }
+  .video{
+    padding-top: 191px;
+  }
+  .aboutMiddleDiv{
+    background-color: #5d696f;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutBottomDiv{
+    background-color: #5d696f;
+    height: 57vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutBottomHalf{
+    height: 115vh;
+    background-color: #5d696f;
+  }
+  .date{
+    font-family: 'SanFranciscoDisplay-Regular ', cursive;
+  }
+  

@@ -1,0 +1,111 @@
+/* General styling */
+div.mainContent {
+    background-color: #5d696f;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #dce4e8;
+  }
+  /* Discover our menu styling */
+  .discoverOurMenu {
+    width: 100%;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #e1e7e1;
+  }
+  .menuInfo{
+    color: white;
+  }
+  .discoverOurMenu h1 {
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    margin-top: 0px;
+  }
+  .discoverOurMenuInnerDiv {
+    background-color: #e1e7e1;
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  
+  /* deliveryProcess styling */
+  div#deliveryProcess {
+    font-family: "PT Sans Narrow";
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    justify-content: center;
+    padding-top: 75px;
+    padding-left: 50px;
+    margin-bottom: 8px;
+  }
+  #deliveryProcess .p-2 {
+    margin-right: 60px;
+  }
+  #deliveryProcess p {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+  }
+  #deliveryProcess img {
+    padding-bottom: 25px;
+  }
+  #deliveryProcess h5 {
+    padding-bottom: 15px;
+  }
+  /* menu styling */
+  div#menu.d-flex {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 1172px;
+    justify-content: center;
+  }
+  #menu.d-flex .p-2 {
+    width: 262px;
+    height: 345px;
+    margin-right: 60px;
+  }
+  #menu.d-flex .p-2 img {
+    width: 100%;
+  }
+  hr {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+  .viewmenu{
+    border-radius: 20px;
+  }
+  
+  /**********  MEDIA QUERIES: MOBILE PHONES  ************/
+  @media (max-width: 767px) {
+    .d-flex {
+      display: block !important;
+      text-align: center;
+    }
+    div#menu.d-flex {
+      flex-wrap: wrap;
+      width: 100%;
+      height: 1172px;
+      justify-content: center;
+    }
+    #menu.d-flex .p-2 {
+      width: 100%;
+      height: 463px;
+      margin-right: 0px;
+      margin-top: 41px;
+    }
+    #menu.d-flex .p-2 img {
+      width: 60%;
+    }
+  }
+  
